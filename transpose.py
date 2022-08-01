@@ -33,6 +33,8 @@ header = ["Username", "Group"]
 
 with open (output, 'w', encoding='utf-8') as out_file:
     writer = csv.DictWriter(out_file, fieldnames=header)
-    writer.writeheader()
+
+    # uncomment below to add a header to the output
+    #writer.writeheader()
     for row in outRows:
         writer.writerow(row)
