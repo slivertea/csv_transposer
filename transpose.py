@@ -31,7 +31,7 @@ with open(input, 'r') as in_file:
 
 header = ["Username", "Group"]
 
-with open (output, 'w') as out_file:
+with open (output, 'w', encoding='utf-8') as out_file:
     writer = csv.DictWriter(out_file, fieldnames=header)
     writer.writeheader()
     for row in outRows:
