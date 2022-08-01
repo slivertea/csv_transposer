@@ -5,7 +5,8 @@ outRows=[]
 # - column a is a list of indidivual usernames
 # - column b is a list of 1 or more groups concatenated with a # delimeter
 
-# output will concatenate column A to each found entry in column B, added as a
+# output will concatenate column A with each entry parsed from column B, adding
+#  it as a new row item in the output.csv
 
 # requires a minimum of 1 item in column b.
 input = 'input.csv'
