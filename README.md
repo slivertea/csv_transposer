@@ -13,5 +13,6 @@ based on a given seperator.  This defaults to #.  Output is a longer csv.
 
 
 #### Usage
- **python3 transpose.py**
+ ***python3 transpose.py***
+
  results: "output.csv"
