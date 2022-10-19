@@ -15,7 +15,6 @@ output = 'output.csv'
 
 with open(input, 'r') as in_file:
     reader = csv.DictReader(in_file)
-
     # break out the rows
     for row in reader:
         groups = row["Groups"].split('#')
